@@ -30,7 +30,7 @@ To build and run just the Node.js app container:
 # Build the image
 docker build -t docker-testapp .
 
-docker run -p 5050:5050 --env-file .env docker-testapp
+docker run -p 5050:5050 testapp:1.0 
 ```
 
 > Adjust the port number if your app uses a different port.
